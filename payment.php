@@ -33,6 +33,9 @@ if (!$rows) {
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
         </head>
+        <?php
+        $amount = $product['ebook_price'];
+        ?>
 
         <body>
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
@@ -67,18 +70,18 @@ if (!$rows) {
                     <div class="form-group">
                         <label for="amount" class="form-label">Amount</label>
                         <!--<input type="tel" id="amount" class="form-control" required />-->
-                        <input class="form-control" id="disabledInput" name="amount" type="text" value="NGN <?php echo $product['ebook_price']; ?>" disabled>
+                        <input class="form-control" id="disabledInput" name="amount" type="text" value="N <?php echo sprintf('%.2f', $amount / 100); ?>" disabled>
                     </div>
                     <div class="form-group">
                         <label for="first-name" class="form-label">First Name</label>
-                        <input type="text" id="first-name" name="first-name" class="form-control" />
+                        <input type="text" id="first-name" name="first-name" class="form-control" required />
                     </div>
                     <div class="form-group">
                         <label for="last-name" class="form-label">Last Name</label>
-                        <input type="text" id="last-name" name="last-name" class="form-control" />
+                        <input type="text" id="last-name" name="last-name" class="form-control" required />
                     </div>
                     <div class="form-submit">
-                        <button type="submit" class="btn btn-primary">Pay <?php echo $product['ebook_price'] ?></button>
+                        <button type="submit" class="btn btn-primary">Pay N <?php echo sprintf('%.2f', $amount / 100); ?></button>
                     </div>
                 </form>
                 </section>

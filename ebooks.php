@@ -51,20 +51,16 @@ $products = mysqli_fetch_all($result, MYSQLI_ASSOC);
     </nav>
 
     <?php foreach ($products as $product) { ?>
-        <div class="container mt-5 pt-5 mb-5 pt-5">
-            <div class="card product-card card-static pb-3"><span class="badge bg-danger badge-shadow">Sale</span>
-                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="" data-bs-original-title="Add to wishlist" aria-label="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="grocery-single.html"><img src="https://cartzilla.createx.studio/img/grocery/catalog/01.jpg" alt="Product" class="loaded tns-complete"></a>
-                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Self Help</a>
-                    <h3 class="product-title fs-sm text-truncate"><a href="grocery-single.html"><?php $product['ebook_name']; ?></a></h3>
-                    <div class="product-price"><span class="text-accent">NGN <?php echo $product['ebook_price'] ?></span>
-                        <del class="fs-sm text-muted">NGN 10,000</del>
+        <a href="payment.php?product=<?php echo $product['ebook_id'] ?>">
+            <div class="container mt-5 pt-5 mb-5 pt-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/business.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">The Nigerian Gig Economy: Understanding the Nigerian landscape.</p>
                     </div>
                 </div>
-                <div class="product-floating-btn">
-                    <a class="btn btn-primary btn-shadow btn-sm" type="button" href="payment.php?product=<?php echo $product['ebook_id']; ?>">View Details</a>
-                </div>
             </div>
-        </div>
+        </a>
     <?php } ?>
 
     <footer class="pt-4 my-md-5 pt-md-5 border-top px-5">
