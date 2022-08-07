@@ -35,7 +35,7 @@ $products = mysqli_fetch_all($result, MYSQLI_ASSOC);
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link" href="#">Blog</a>
+                    <a class="nav-link" href="blog.php">Blog</a>
                     <a class="nav-link" href="news.php">News</a>
                     <a class="nav-link active" aria-current="page" href="ebooks.php">Ebooks</a>
                     <a class="nav-link" href="marketing.php">Hire a Digital Marketer</a>
@@ -67,7 +67,43 @@ $products = mysqli_fetch_all($result, MYSQLI_ASSOC);
         </div>
     <?php } ?>
 
-
+    <footer class="pt-4 my-md-5 pt-md-5 border-top px-5">
+        <div class="row">
+            <div class="col-12 col-md">
+                <img class="mb-2" src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="24" height="19">
+                <small class="d-block mb-3 text-muted">© 2017–2022</small>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Features</h5>
+                <ul class="list-unstyled text-small">
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Contact Us</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Get a quote</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Hire a web developer</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Hire a digital marketer</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="">Another one</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Speak with a business consultant</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Resources</h5>
+                <ul class="list-unstyled text-small">
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="blog">Blog</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="news">Business News</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="Ebooks">Ebooks</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Success stories</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>About</h5>
+                <ul class="list-unstyled text-small">
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
 
 </body>

@@ -21,7 +21,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                    <a class="nav-link" href="blog.php">Blog</a>
                     <a class="nav-link" href="news.php">News</a>
                     <a class="nav-link" href="ebooks.php">Ebooks</a>
                     <a class="nav-link" href="marketing.php">Hire a Digital Marketer</a>

@@ -11,7 +11,7 @@ $Your_Domain = "http://localhost/businesshelpNG/";
 $fields = [
     'email' => $email,
     'amount' => $price,
-    'callback_url' => $Your_Domain . "paystackverify.php"
+    'callback_url' => $Your_Domain . "paymentstatus.php"
 ];
 
 header('Content-Type: application/json');

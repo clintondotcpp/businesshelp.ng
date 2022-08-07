@@ -67,7 +67,7 @@ if (!$rows) {
                     <div class="form-group">
                         <label for="amount" class="form-label">Amount</label>
                         <!--<input type="tel" id="amount" class="form-control" required />-->
-                        <input class="form-control" id="disabledInput" name="amount" type="text" placeholder="NGN<?php echo $product['ebook_price'] ?>" value="<?php echo $product['ebook_price']; ?>" disabled>
+                        <input class="form-control" id="disabledInput" name="amount" type="text" value="NGN <?php echo $product['ebook_price']; ?>" disabled>
                     </div>
                     <div class="form-group">
                         <label for="first-name" class="form-label">First Name</label>
@@ -84,26 +84,46 @@ if (!$rows) {
                 </section>
             </div>
 
-            <footer class="py-3 my-4 bg-dark">
-                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
-                </ul>
-                <p class="text-center text-muted">© 2022 Company, Inc</p>
+            <footer class="pt-4 my-md-5 pt-md-5 border-top px-5">
+                <div class="row">
+                    <div class="col-12 col-md">
+                        <img class="mb-2" src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="24" height="19">
+                        <small class="d-block mb-3 text-muted">© 2017–2022</small>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5>Features</h5>
+                        <ul class="list-unstyled text-small">
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Contact Us</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Get a quote</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Hire a web developer</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Hire a digital marketer</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="">Another one</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Speak with a business consultant</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5>Resources</h5>
+                        <ul class="list-unstyled text-small">
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="blog">Blog</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="news">Business News</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="Ebooks">Ebooks</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Success stories</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5>About</h5>
+                        <ul class="list-unstyled text-small">
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
             </footer>
-
-
-
-
-            <script src="paystack.js"></script>
-            <script src="https://js.paystack.co/v1/inline.js"></script>
         </body>
 
         </html>
-
 <?php
     }
 }
