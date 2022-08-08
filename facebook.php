@@ -40,9 +40,9 @@
         <header>
             <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
                 <h1 class="display-4 fw-normal">Facebook Ads Pricing</h1>
-                <p class="fs-5 text-muted">Quickly build an effective pricing table for your potential customers
-                    with this Bootstrap example. It’s built with default Bootstrap components and utilities with
-                    little customization.</p>
+                <p class="fs-5 text-muted">Our Facebook Ad system advertises your business on Facebook and Instagram. Guaranteed to scale your business, generate more revenue and leads.</p>
+                <p>Your ad creative happens to contribute 70-80% of the performance of your ad and the Ad set up contributes the rest. It is very important you create the right content for your ad. We will give you guidance on what to create to make sure your ad sends the right message at first glance.</p>
+                <p>Although we advise our clients to run ads with us for at least a month, we understand every business has a goal and a budget. Our pricing is dynamic and seeks result first!</p>
             </div>
         </header>
 
@@ -61,15 +61,17 @@
                                 <div class="col">
                                     <div class="card mb-4 rounded-3 shadow-sm">
                                         <div class="card-header py-3">
-                                            <h4 class="my-0 fw-normal">Free</h4>
+                                            <h4 class="my-0 fw-normal">starter</h4>
                                         </div>
                                         <div class="card-body">
-                                            <h1 class="card-title pricing-card-title">N11,000<small class="text-muted fw-light">/week</small></h1>
+                                            <h1 class="card-title pricing-card-title">N20,000<small class="text-muted fw-light">/week</small></h1>
                                             <ul class="list-unstyled mt-3 mb-4">
-                                                <li>10 users included</li>
-                                                <li>2 GB of storage</li>
-                                                <li>Email support</li>
-                                                <li>Help center access</li>
+                                                <li>7 days of marketing and lead generation</li>
+                                                <li>Initial Capmpaign Strategy</li>
+                                                <li>Advancded Ad targeting</li>
+                                                <li>4 Ad sets</li>
+                                                <li>Installation of Tracking pixel on your website</li>
+                                                <li>BONUS: Email Marketing campaing</li>
                                             </ul>
                                             <button type="button" class="w-100 btn btn-lg btn-dark">Get started</button>
                                         </div>
@@ -81,7 +83,7 @@
                                             <h4 class="my-0 fw-normal">Pro</h4>
                                         </div>
                                         <div class="card-body">
-                                            <h1 class="card-title pricing-card-title">NGN 22,000<small class="text-muted fw-light">/mo</small></h1>
+                                            <h1 class="card-title pricing-card-title">N40,000<small class="text-muted fw-light">/week</small></h1>
                                             <ul class="list-unstyled mt-3 mb-4">
                                                 <li>20 users included</li>
                                                 <li>10 GB of storage</li>
@@ -98,11 +100,12 @@
                                             <h4 class="my-0 fw-normal">Enterprise</h4>
                                         </div>
                                         <div class="card-body">
-                                            <h1 class="card-title pricing-card-title">NGN 33,000<small class="text-muted fw-light">/mo</small></h1>
+                                            <h1 class="card-title pricing-card-title">N60,000<small class="text-muted fw-light">/week</small></h1>
                                             <ul class="list-unstyled mt-3 mb-4">
                                                 <li>30 users included</li>
                                                 <li>15 GB of storage</li>
                                                 <li>Phone and email support</li>
+                                                <li>Help center access</li>
                                                 <li>Help center access</li>
                                             </ul>
                                             <button type="button" class="w-100 btn btn-lg btn-dark">Contact us</button>
@@ -125,7 +128,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <th scope="row" class="text-start">Public</th>
+                                            <th scope="row" class="text-start">Advanced Targeting</th>
                                             <td><svg class="bi" width="24" height="24">
                                                     <use xlink:href="#check"></use>
                                                 </svg></td>
@@ -137,7 +140,7 @@
                                                 </svg></td>
                                         </tr>
                                         <tr>
-                                            <th scope="row" class="text-start">Private</th>
+                                            <th scope="row" class="text-start">Content recommendation</th>
                                             <td></td>
                                             <td><svg class="bi" width="24" height="24">
                                                     <use xlink:href="#check"></use>
@@ -150,7 +153,7 @@
 
                                     <tbody>
                                         <tr>
-                                            <th scope="row" class="text-start">Permissions</th>
+                                            <th scope="row" class="text-start">Retargeting</th>
                                             <td><svg class="bi" width="24" height="24">
                                                     <use xlink:href="#check"></use>
                                                 </svg></td>
@@ -162,7 +165,7 @@
                                                 </svg></td>
                                         </tr>
                                         <tr>
-                                            <th scope="row" class="text-start">Sharing</th>
+                                            <th scope="row" class="text-start">Campaign optimization</th>
                                             <td></td>
                                             <td><svg class="bi" width="24" height="24">
                                                     <use xlink:href="#check"></use>
@@ -172,7 +175,7 @@
                                                 </svg></td>
                                         </tr>
                                         <tr>
-                                            <th scope="row" class="text-start">Unlimited members</th>
+                                            <th scope="row" class="text-start">Ad sets</th>
                                             <td></td>
                                             <td><svg class="bi" width="24" height="24">
                                                     <use xlink:href="#check"></use>
@@ -182,7 +185,17 @@
                                                 </svg></td>
                                         </tr>
                                         <tr>
-                                            <th scope="row" class="text-start">Extra security</th>
+                                            <th scope="row" class="text-start">Facebook Conversion API installation</th>
+                                            <td></td>
+                                            <td><svg class="bi" width="24" height="24">
+                                                    <use xlink:href="#check"></use>
+                                                </svg></td>
+                                            <td><svg class="bi" width="24" height="24">
+                                                    <use xlink:href="#check"></use>
+                                                </svg></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="text-start">Facebook Pixel</th>
                                             <td></td>
                                             <td></td>
                                             <td><svg class="bi" width="24" height="24">
@@ -499,30 +512,30 @@
 
 
 
-    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+    <footer class="pt-4 my-md-5 pt-md-5 border-top px-5">
         <div class="row">
             <div class="col-12 col-md">
-                <img class="mb-2" src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="24" height="19">
-                <small class="d-block mb-3 text-muted">© 2017–2022</small>
+                <img class="mb-2" src="img/business.jpg" alt="" width="24" height="19">
+                <small class="d-block mb-3 text-muted">© 2022 businesshelpNG </small>
             </div>
             <div class="col-6 col-md">
-                <h5>Features</h5>
+                <h5>Help</h5>
                 <ul class="list-unstyled text-small">
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Contact Us</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Get a quote</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Hire a web developer</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Hire a digital marketer</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="">Another one</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Speak with a business consultant</a></li>
                 </ul>
             </div>
             <div class="col-6 col-md">
                 <h5>Resources</h5>
                 <ul class="list-unstyled text-small">
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="blog.php">Blog</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="news.php">Business News</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="ebooks.php">Ebooks</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="blog.php">Success stories</a></li>
                 </ul>
             </div>
             <div class="col-6 col-md">
